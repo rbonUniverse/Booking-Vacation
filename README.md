@@ -6,6 +6,7 @@ First, download the project and unzip it.
 Restore the database usind the provided .sql file.
 Run the command npm i on both the Backend and Frontend directories.
 
+
 Running
 
 Run the database instance.
