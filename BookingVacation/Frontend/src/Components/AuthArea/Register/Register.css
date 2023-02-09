@@ -1,0 +1,81 @@
+.Register {
+    width: 350px;
+    height: 630px;
+    margin: auto;
+    margin: 1% 37%;
+    text-align: left;
+    border: 1px solid #3eb9e6;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #3eb9e6;
+}
+
+.FaUserAlt {
+    font-size: 50px;
+    margin: auto;
+    margin: 5.5% 37%;
+
+}
+
+.Register label {
+    color: #33290c;
+}
+
+.Register .TextBox {
+    width: 100%;
+    margin-bottom: 60px;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.Register .username {
+    width: 100%;
+    margin-bottom: 60px;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.Register .password {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Register Button {
+    width: 60%;
+    height: 37px;
+    padding: 5px;
+    border-color: transparent;
+    font-size: larger;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin: 15% 5% 5% 20%;
+    background-color: #035c7e;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.Register>h2 {
+    width: 100%;
+    padding: 5px;
+    font-size: 45px;
+    margin: 5% -5%;
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+}
+
+.Register .FaUserAlt {
+    margin-top: 0%;
+    margin-bottom: -45px;
+    font-size: 85px;
+    text-align: center;
+    color: white;
+}
+
+.Register>span {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    box-sizing: border-box;
+}

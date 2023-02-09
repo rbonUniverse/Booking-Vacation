@@ -1,0 +1,14 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Header>.AuthMenu {
+    margin: 10px 0px 0px 0px;
+}
+
+.Header>.Booking {
+    color: white;
+    letter-spacing: 15px;
+    margin: -8px 0px 0px -5px;
+}

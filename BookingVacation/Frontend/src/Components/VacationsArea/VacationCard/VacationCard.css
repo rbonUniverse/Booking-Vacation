@@ -1,0 +1,58 @@
+.VacationCard {
+    width: 580px;
+    height: 380px;
+    text-align: left;
+    background-color: #035c7e;
+    border: 0.1px solid rgb(56, 55, 55);
+    border-radius: 20px;
+    margin-left: 80px;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.VacationCard .text {
+    width: 13cm;
+    color: white;
+    position: absolute;
+    word-wrap: break-word;
+    margin: -290px 0px 0px 25px;
+}
+
+.VacationCard img {
+    width: 550px;
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 10px 5px 0px 15px;
+}
+
+.VacationCard .adminCardNav>Button {
+    font-size: x-large;
+    float: right;
+    color: red;
+    margin: 8px 18px -5px 30px;
+}
+
+.VacationCard .adminCardNav>a {
+    font-size: 28px;
+    float: left;
+    color: lightgreen;
+    margin: 10px 18px -5px 38px;
+}
+
+.VacationCard .userCardNav>Button {
+    float: left;
+    color: white;
+    width: 98px;
+    height: 28px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin: 8px 0px 0px 15px;
+}
+
+.VacationCard .userCardNav>Button>.followUnfollow {
+    float: left;
+    font-size: x-small;
+    color: white;
+    letter-spacing: 3px;
+}

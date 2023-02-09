@@ -1,0 +1,92 @@
+.EditVacation {
+    width: 350px;
+    height: 630px;
+    margin: auto;
+    margin: 1% 37%;
+    text-align: left;
+    border: 1px solid #3eb9e6;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #3eb9e6;
+}
+
+.EditVacation label {
+    color: #33290c;
+}
+
+.EditVacation .destination {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.EditVacation .price {
+    width: 100%;
+    margin-bottom: 50px;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.EditVacation > .LocalizationProvider > .DesktopDatePicker {
+    width: 100%;
+    margin-bottom: 50px;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+input[type=date]:required:invalid::-webkit-datetime-edit {
+    color: transparent;
+}
+
+input[type=date]:focus::-webkit-datetime-edit {
+    color: black !important;
+}
+
+.EditVacation .description {
+    width: 100%;
+    margin-bottom: 50px;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.EditVacation .FaCamera {
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.EditVacation>form>Button {
+    width: 40%;
+    height: 35px;
+    padding: 5px;
+    border-color: transparent;
+    font-size: larger;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: medium;
+    align-items: center;
+    margin: 15% 5% 5% 5%;
+    background-color: #035c7e;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.EditVacation>form>h2 {
+    width: 100%;
+    padding: 5px;
+    font-size: 35px;
+    margin: -1% -5%;
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+}
+
+.EditVacation>span {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    box-sizing: border-box;
+}

@@ -1,0 +1,19 @@
+.VacationsList {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 5% 92% 3%;
+}
+
+header, footer {
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.VacationsList > header {
+   margin-top: 1%;
+}
+
+.VacationsList main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 2%;
+}
